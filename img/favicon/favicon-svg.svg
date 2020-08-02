@@ -1,13 +1,24 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <svg width="64px" height="64px" viewBox="0 0 64 64" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
-    <title>favicon copy 2-svg</title>
+    <title>favicon-svg</title>
     <defs>
-        <linearGradient x1="0%" y1="0%" x2="100%" y2="100%" id="linearGradient-1">
-            <stop stop-color="#F44243" offset="0%"></stop>
-            <stop stop-color="#B21819" offset="100%"></stop>
-        </linearGradient>
+        <rect id="path-1" x="0" y="0" width="64" height="64"></rect>
+        <filter x="-49.2%" y="-25.8%" width="198.4%" height="198.4%" filterUnits="objectBoundingBox" id="filter-2">
+            <feOffset dx="0" dy="15" in="SourceAlpha" result="shadowOffsetOuter1"></feOffset>
+            <feGaussianBlur stdDeviation="8" in="shadowOffsetOuter1" result="shadowBlurOuter1"></feGaussianBlur>
+            <feColorMatrix values="0 0 0 0 0   0 0 0 0 0   0 0 0 0 0  0 0 0 0.320804196 0" type="matrix" in="shadowBlurOuter1"></feColorMatrix>
+        </filter>
     </defs>
-    <g id="favicon-copy-2" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-        <path d="M32,0 C49.673112,-3.24649801e-15 64,14.326888 64,32 C64,49.673112 49.673112,64 32,64 C14.326888,64 2.164332e-15,49.673112 0,32 C-2.164332e-15,14.326888 14.326888,3.24649801e-15 32,0 Z M23.484375,15.5703125 L18.7734375,15.5703125 L18.7734375,50 L23.484375,50 L23.484375,33.8984375 L41.390625,33.8984375 L41.390625,50 L46.1015625,50 L46.1015625,15.5703125 L41.390625,15.5703125 L41.390625,29.796875 L23.484375,29.796875 L23.484375,15.5703125 Z" id="Combined-Shape" fill="url(#linearGradient-1)"></path>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Favicon" transform="translate(-262.000000, -368.000000)">
+            <rect fill="#000000" x="0" y="0" width="800" height="800"></rect>
+            <g id="Group-3" transform="translate(262.000000, 368.000000)">
+                <g id="Rectangle">
+                    <use fill="black" fill-opacity="1" filter="url(#filter-2)" xlink:href="#path-1"></use>
+                    <use fill="#B90F0F" fill-rule="evenodd" xlink:href="#path-1"></use>
+                </g>
+                <polygon id="Path" fill="#FFFFFF" points="36 29 36 13 40.4582133 13 44.4020173 19.2060606 48.5172911 13 52.9755043 13 52.9755043 29 47.8314121 29 47.8314121 23.8606061 44.4020173 27.7393939 41.1685879 23.569697 41.1685879 29"></polygon>
+            </g>
+        </g>
     </g>
 </svg>
